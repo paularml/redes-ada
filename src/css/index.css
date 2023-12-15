@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
 :root {
-    --cinza: #BFB9B8;
+    --cinza: #012A79;
     --bege: #BF948A;
-    --vinho: #591E18;
+    --vinho: #010626;
     --vermelho: #A61F1F;
 
 }
@@ -16,7 +16,8 @@
 }
 
 body {
-    background-color: var(--vermelho);
+    background-image: url("../resources/bluedot.jpg");
+    background-size: cover !important;
 }
 
 .group-card {
@@ -25,9 +26,10 @@ body {
 
 @media (min-width: 768px) {
     .group-card {
-        height: 18rem !important;
+        height: 100%;
     }
 }
+
 
 @media (max-width: 768px) {
     i {
